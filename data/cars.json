@@ -1,0 +1,26 @@
+[
+  {
+      "model": "Budget car",
+      "price": 850,
+      "seats": 4,
+      "luggage": 2,
+      "picture": "/images/budget.png",
+      "category": "budget"
+  },
+  {
+      "model": "Standard car",
+      "price": 1700,
+      "seats": 5,
+      "luggage": 4,
+      "picture": "/images/standard-car.png",
+      "category": "standard"
+  },
+  {
+      "model": "Minivan",
+      "price": 2000,
+      "seats": 2,
+      "luggage": 1,
+      "picture": "/images/minivan.png",
+      "category": "van"
+  }
+]

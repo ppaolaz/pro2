@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Rent a car</title>
+    
+</head>
+<body>
+    <nav>
+        <h1>SunbeamCars Inc.</h1>
+        <button>
+            &#9755 Log in
+        </button>
+    </nav>
+    <header>
+        <section class="form">
+            <h1>Find the car that suits you</h1>
+            <form action="#" class="searchForm">
+                <div class="row-one">
+                    <div>
+                        <label for="pickup-time">Pick it up</label>
+                        <input type="date" name="pickup-time" id="pickup-time">
+                    </div>
+                    <div>
+                        <label for="handin-time">I hand it in</label>
+                        <input type="date" name="handin-time" id="handin-time">
+                    </div>
+                </div>
+                <div class="row-two">
+                    <div>
+                        <label for="number-of-people" >Number of people</label>
+                        <input type="number" name="number-of-people" id="number-of-people" class="numberOfPeople">
+                    </div>
+                    <div>
+                        <label for="suitcases" >Number of suitcases</label>
+                        <select name="number-of-suitcases" class="numberOfSuitcases" id="number-of-suitcases">
+                            <option value="0">0-only a bag</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    </header>
+    <main class="main-content">
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
