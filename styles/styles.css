@@ -13,7 +13,7 @@ nav{
 }
 
 header{
-    background-image: url(/images/background-image.jpg);
+    background-image: url(../images/background-image.jpg);
     background-repeat: repeat-y;
     background-size:cover;
     background-attachment: fixed;
